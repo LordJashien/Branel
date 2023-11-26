@@ -6,46 +6,19 @@
 ;   [section] ; section goes between []
 ;   param=value ; assign values to parameters
 
-config_version=4
+config_version=5
 
 [application]
 
-config/name="GoShGa"
-config/description="A FPS game... made with Godot, by the XANOS team."
-run/main_scene="res://TSCNorGDfolder/menu.tscn"
-run/low_processor_mode=true
-boot_splash/image="res://banner.png"
-config/icon="res://icon.png"
-
-[audio]
-
-physics_engine="GodotPhysics"
-vsync/use_vsync=false
-size/fullscreen=true
-image="res://banner.jpg"
-low_processor_mode=true
-icon="res://icon.png"
-description="A FPS game... made with Godot, by the XANOS team."
+config/name="Branel"
+run/main_scene="res://Godot/TSCN/Menu/main.tscn"
+config/features=PackedStringArray("4.1", "Mobile")
+config/icon="res://icon.svg"
 
 [display]
 
-window/size/fullscreen=true
-window/vsync/use_vsync=false
-
-[editor_plugins]
-
-enabled=PoolStringArray(  )
-
-[gui]
-
-common/drop_mouse_on_gui_input_disabled=true
-
-[physics]
-
-common/enable_pause_aware_picking=true
-3d/physics_engine="GodotPhysics"
+window/stretch/mode="canvas_items"
 
 [rendering]
 
-quality/driver/driver_name="GLES2"
-environment/default_environment="res://default_env.tres"
+renderer/rendering_method="mobile"
