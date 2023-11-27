@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://hv0f0n8ahw3y"]
+
+[ext_resource type="PackedScene" uid="uid://fkurqe0p8wqk" path="res://Godot/PLAYER/model.glb" id="1_pv5if"]
+
+[node name="Model" type="Node3D"]
+
+[node name="Player" parent="." instance=ExtResource("1_pv5if")]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.999798, -0.0200874, 0, 0.0200874, 0.999798, -0.0022127, 4.01865, 0.47955)
