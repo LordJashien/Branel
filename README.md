@@ -1,1 +1,1 @@
-wip.
+A game made in Godot, Working in Progress.
